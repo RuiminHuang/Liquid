@@ -32,7 +32,7 @@ namespace Liquid{
     /**
      * Return the adc value from the AnalogPin;
      */
-    //% blockId=liquid_ getADCValue
+    //% blockId=liquid_getADCValue
     //% block="get liquid adc value"
     //% weight = 75
     export function getADCValue(): number {
@@ -43,7 +43,7 @@ namespace Liquid{
     /**
      * Return the volt value from the AnalogPin;
      */
-    //% blockId=liquid_ getVoltValue
+    //% blockId=liquid_getVoltValue
     //% block="get liquid volt value"
     //% weight = 65
     export function getVoltValue(): number {
