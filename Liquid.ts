@@ -7,11 +7,11 @@
  * 自定义图形块
  */
 
- /*
- liquid block
- */
+/*
+liquid block
+*/
 //% weight=80 color=#66FFFF icon="\uf13d" block="liquid"
-namespace Liquid{
+namespace Liquid {
     let pin = AnalogPin.P0
     let volt = 0;
     let adc = 0;
