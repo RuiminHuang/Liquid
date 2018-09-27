@@ -10,7 +10,7 @@
  /*
  liquid block
  */
-//% color=#66FFFF icon="\uf561" block="liquid" weight=100
+//% weight=80 color=#66FFFF icon="\uf13d" block="liquid"
 namespace Liquid{
     let pin = AnalogPin.P0
     let volt = 0;
@@ -43,7 +43,7 @@ namespace Liquid{
     /**
      * Return the adc value from the AnalogPin;
      */
-    //% blockId=liquid_ getADCValue()
+    //% blockId=liquid_ getVoltValue()
     //% block="get liquid volt value"
     //% weight = 85
     export function getVoltValue(): number {
