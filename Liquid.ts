@@ -23,7 +23,7 @@ namespace Liquid{
      */
     //% blockId=liquid_setPin
     //% block="set liquid pin |%pinarg|"
-    //% weight = 65
+    //% weight = 85
     export function setPin(pin_arg: AnalogPin): void {
         pin = pin_arg;
     }
@@ -32,7 +32,7 @@ namespace Liquid{
     /**
      * Return the adc value from the AnalogPin;
      */
-    //% blockId=liquid_ getADCValue()
+    //% blockId=liquid_ getADCValue
     //% block="get liquid adc value"
     //% weight = 75
     export function getADCValue(): number {
@@ -43,9 +43,9 @@ namespace Liquid{
     /**
      * Return the volt value from the AnalogPin;
      */
-    //% blockId=liquid_ getVoltValue()
+    //% blockId=liquid_ getVoltValue
     //% block="get liquid volt value"
-    //% weight = 85
+    //% weight = 65
     export function getVoltValue(): number {
         adc = pins.analogReadPin(pin);
         volt = adc * 3300 / 1024;
