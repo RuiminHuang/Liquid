@@ -10,7 +10,7 @@
 /*
 liquid block
 */
-//% weight=80 color=#66FFFF icon="\uf13d" block="liquid"
+//% weight=80 color=#66FFFF icon="\uf043" block="liquid"
 namespace Liquid {
     let pin = AnalogPin.P0
     let volt = 0;
