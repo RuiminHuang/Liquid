@@ -41,7 +41,7 @@ namespace Liquid{
     }
 
     /**
-     * Return the adc value from the AnalogPin;
+     * Return the volt value from the AnalogPin;
      */
     //% blockId=liquid_ getVoltValue()
     //% block="get liquid volt value"
